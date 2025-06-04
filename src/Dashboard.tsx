@@ -147,7 +147,7 @@ export default function Dashboard() {
           return trotinetesPaths[i][nextStep] as [number, number];
         })
       );
-    }, 1200); // muda de posição a cada 1.2s
+    }, 3000); // muda de posição a cada 1.2s
     return () => clearInterval(interval);
   }, []);
 
